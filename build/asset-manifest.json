@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/igs-service/static/css/main.964af7fc.css",
+    "main.js": "/igs-service/static/js/main.ef980189.js",
+    "static/media/daBoss.png": "/igs-service/static/media/daBoss.a97d263713f82cdbb88c.png",
+    "index.html": "/igs-service/index.html",
+    "main.964af7fc.css.map": "/igs-service/static/css/main.964af7fc.css.map",
+    "main.ef980189.js.map": "/igs-service/static/js/main.ef980189.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.964af7fc.css",
+    "static/js/main.ef980189.js"
+  ]
+}
