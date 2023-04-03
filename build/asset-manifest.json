@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/igs-service/static/css/main.964af7fc.css",
-    "main.js": "/igs-service/static/js/main.ef980189.js",
+    "main.css": "/igs-service/static/css/main.9ae8f995.css",
+    "main.js": "/igs-service/static/js/main.5d2eaf1a.js",
     "static/media/daBoss.png": "/igs-service/static/media/daBoss.a97d263713f82cdbb88c.png",
+    "static/media/Train-Repair-1.png": "/igs-service/static/media/Train-Repair-1.bc2d56c8990ab1031754.png",
     "index.html": "/igs-service/index.html",
-    "main.964af7fc.css.map": "/igs-service/static/css/main.964af7fc.css.map",
-    "main.ef980189.js.map": "/igs-service/static/js/main.ef980189.js.map"
+    "main.9ae8f995.css.map": "/igs-service/static/css/main.9ae8f995.css.map",
+    "main.5d2eaf1a.js.map": "/igs-service/static/js/main.5d2eaf1a.js.map"
   },
   "entrypoints": [
-    "static/css/main.964af7fc.css",
-    "static/js/main.ef980189.js"
+    "static/css/main.9ae8f995.css",
+    "static/js/main.5d2eaf1a.js"
   ]
 }

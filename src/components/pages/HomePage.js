@@ -1,5 +1,7 @@
 import React from "react";
 import pic1 from "../../images/Train-Repair-1.png";
+import bgpic from "../../images/345.png";
+import "../../style.css";
 
 export default function Home() {
   function FadeInSection(props) {
@@ -24,7 +26,10 @@ export default function Home() {
   return (
     <div>
       <header>
-        <h1 className="p-2">This is homepage</h1>
+        <div id="bgIGS">
+          <h1>IGS Service Homepage</h1>
+          <img src={bgpic} alt="background"></img>
+        </div>
       </header>
       <div>
         <FadeInSection>
