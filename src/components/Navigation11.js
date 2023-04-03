@@ -1,31 +1,12 @@
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
 import seanFace from "../images/daBoss.png";
 import * as bootstrap from "bootstrap";
 import "../style.css";
 window.bootstrap = bootstrap;
 
 function NavTabs({ currentPage, handlePageChange }) {
-  const lastScrollTop = useRef(0);
-  const [isNevbarVisible, setIsNavbarVisible] = useState(true);
-
-  const handleScroll = () => {
-    const { pageYOffset } = window;
-    if (pageYOffset > lastScrollTop.current) {
-      setIsNavbarVisible(false);
-    } else if (pageYOffset < lastScrollTop.current) {
-      setIsNavbarVisible(true);
-    }
-    lastScrollTop.current = pageYOffset;
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll, { passive: true });
-    return window.removeEventListener("scroll", handleScroll);
-  }, []);
-
   return (
-    // <div className="d-inline">
-    <div className={`scrollNav ${isNevbarVisible ? "visible" : ""}`}>
+    <div className="d-inline">
       <div className="container-fluid">
         <a
           href="#homepage"
@@ -43,7 +24,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           />
         </a>
       </div>
-      <ul className="nav googleFont nav-items" style={{ fontSize: "20px" }}>
+      <ul className="nav googleFont" style={{ fontSize: "20px" }}>
         <li className="nav-item">
           <a
             href="#aboutus"

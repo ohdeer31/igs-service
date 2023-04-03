@@ -10,6 +10,39 @@ div .nav-item a:hover {
   background-color: #7d7c7a;
 }
 
+/* .scrollNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  translate: 0 -72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0 20px;
+  width: 100%;
+
+  box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+  background: #7d7c7a;
+}
+
+.scrollNav.visible {
+  top: 0;
+  translate: 0;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.nav-item {
+  text-decoration: none;
+
+  display: grid;
+} */
+
 .fade-in-section {
   opacity: 0;
   transform: translateY(20vh);

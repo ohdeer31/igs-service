@@ -29,6 +29,7 @@ export default function Home() {
         <div id="bgIGS">
           <h1>IGS Service Homepage</h1>
           <img src={bgpic} alt="background"></img>
+          <h3>Important information here</h3>
         </div>
       </header>
       <div>
